@@ -19,6 +19,7 @@ public class GreetingController {
 	}
 	
 	public void strange() {
+		System.out.println("ciao");
 		int j = 0;
 		while (true) { // Noncompliant; end condition omitted
 		  j++;
