@@ -21,6 +21,7 @@ public class GreetingController {
 	public void strange() {
 		int j = 0;
 		while (true) { // Noncompliant; end condition omitted
+			System.out.println("ccc");
 		  j++;
 		}
 	}
