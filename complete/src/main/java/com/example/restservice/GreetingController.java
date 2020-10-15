@@ -20,7 +20,6 @@ public class GreetingController {
 	}
 	
 	public void strange() {
-		System.out.println("ttt");
 		int j = 0;
 		while (true) { // Noncompliant; end condition omitted
 		  j++;
