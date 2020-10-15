@@ -14,11 +14,11 @@ public class GreetingController {
 
 	@GetMapping("/greeting")
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-		System.out.println("qqq");
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
 	
 	public void strange() {
+		System.out.println("qqq");
 		int j = 0;
 		while (true) { // Noncompliant; end condition omitted
 		  j++;
