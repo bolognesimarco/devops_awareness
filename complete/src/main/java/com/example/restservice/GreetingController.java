@@ -16,13 +16,4 @@ public class GreetingController {
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return new Greeting(counter.incrementAndGet(), String.format(TEMPLATE, name));
 	}
-	
-	//public void strange() {
-		//System.out.println("ccc");
-		//int j = 0;
-		/*while (true) { // Noncompliant; end condition omitted
-		  j++;
-		  if(j==2) break;
-		}*/
-	//}
 }
