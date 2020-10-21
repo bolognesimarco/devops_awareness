@@ -17,12 +17,12 @@ public class GreetingController {
 		return new Greeting(counter.incrementAndGet(), String.format(TEMPLATE, name));
 	}
 	
-	public void strange() {
+	//public void strange() {
 		//System.out.println("ccc");
-		int j = 0;
+		//int j = 0;
 		/*while (true) { // Noncompliant; end condition omitted
 		  j++;
 		  if(j==2) break;
 		}*/
-	}
+	//}
 }
